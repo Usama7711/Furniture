@@ -1,0 +1,60 @@
+.FooterMain {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(110, 44, 0, 1);
+
+    .Map {
+        iframe {
+            height: 200px;
+            width: 100%;
+        }
+    }
+
+    .HeaderList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        ul {
+            li {
+                cursor: pointer;
+                margin-bottom: 8px;
+                transition: 0.5s ease-in-out;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+
+                &::marker {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .DetailsFoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        .footHeading {
+            font-size: 22px;
+            color: white;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .footAddress {
+            color: wheat;
+            font-size: 14px;
+           
+        }
+    }
+}

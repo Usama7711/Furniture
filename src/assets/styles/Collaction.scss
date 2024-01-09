@@ -1,0 +1,52 @@
+.CollactionMain {
+    .CollactionHeading {
+        color: #6E2C00;
+        text-align: center;
+        font-size: 35px;
+        text-shadow: #6E2C00;
+        padding: 20px 0;
+        font-weight: 900;
+        font-style: italic;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+.CollactionMainCard {
+    // height: 500px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: 0.8s ease-in-out;
+    }
+    .productName{
+        font-size: 22px;
+        font-weight: 500;
+        color: #6e2c007e;
+        transition: 0.8s ease-in-out;
+    }
+    .productDetails{
+        color: rgba(0, 0, 0, 0.463);
+        transition: 0.8s ease-in-out;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.1);
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .productName{
+            letter-spacing: 2px;
+            color: #6E2C00;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        .productDetails{
+            color: black;
+        }
+    }
+}

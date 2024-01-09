@@ -1,0 +1,51 @@
+.ShowroomMain {
+    .ShowroomHeading {
+        color: #6E2C00;
+        text-align: center;
+        font-size: 35px;
+        text-shadow: #6E2C00;
+        padding: 20px 0;
+        font-weight: 900;
+        font-style: italic;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .ShowroomImage {
+        img {
+            width: 100%;
+            box-shadow: rgba(110, 44, 0, 0.4) -5px 5px, rgba(110, 44, 0, 0.3) -10px 10px, rgba(110, 44, 0, 0.2) -15px 15px, rgba(110, 44, 0, 0.1) -20px 20px, rgba(110, 44, 0, 0.05) -25px 25px;
+            margin: 20px 0;
+        }
+    }
+    .showroomDetails{
+        margin: 20px 0;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        .showHeading{
+            font-size: 22px;
+            font-weight: 500;
+            color: #6E2C00;
+            font-style: italic;
+            text-decoration: underline;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+        .showAddress{
+            font-size: 15px;
+        }
+        .showSpecialized{
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .showlist{
+            li{
+                margin-bottom: 5px;
+                &::marker{
+                    color: #6E2C00;
+                }
+            }
+        }
+    }
+}
